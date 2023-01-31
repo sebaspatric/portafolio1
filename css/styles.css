@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Estilos generales */
+
+.image-container{
+    display: flex;
+}
+
+.image-container img{
+    width: 100%;
+}
+/* Estilos del header*/
+
+header{
+    background: #1f1f1f;
+    padding: 10px 50px;
+}
+
+#logo{
+    width: 50px;
+}
+
+#logo img{
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+/* Estilos del hero */
+#hero {
+    position: relative;
+}
+
+#hero #computadora{
+    display: inline-block;
+    width: 100%;
+}
+#hero #computadora img{
+    height: 70%;
+}
+#hero .informacion-container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: #c8e5ff;
+    padding: 0 50px; 
+    text-shadow: -0.8px -0.8px 0.8px #333, 0.8px -0.8px 0.8px #333, -0.8px 0.8px 0.8px #333, 0.8px 0.8px 0.8px #333;
+}
+
+#hero .informacion-container #foto {
+    width: 200px;
+}
+
+#hero .informacion-container #foto img{
+    border-radius: 100%;
+}
+#hero .informacion-container .informacion{
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100%-200px);
+}
+
+#hero .informacion-container .informacion span{
+    color: #06267c;
+    display: inline-block;
+    margin-bottom: 70px;
+    /*-webkit-text-stroke: 0.5px black;*/
+    text-shadow: -0.1px -0.1px 0.1px #333, 0.1px -0.1px 0.1px #333, -0.1px 0.1px 0.1px #333, 0.1px 0.1px 0.1px #333;
+}
+
+
+/* Estilos del Main */
+
+main{
+    padding: 100px
+}
+
+main .social-icons {
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+
+main .social-icons li{
+    margin-left: 8px; 
+}
+
+
+main .social-icons .social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius:5px;
+    width: 100%;
+    height: 100%;
+}
+
+main .social-icons #linkedin{
+    background:#0077b0;
+}
+
+main .social-icons #github{
+    background:#23272d;
+}
+
+main .social-icons #twitter{
+    background:#1da1f2;
+}
+
+main .social-icons #youtube{
+    background:#f70000;
+}
+
+main .social-icons #platzi{
+    background:#121f3d;
+}
+
+/* Estilos del main*/
